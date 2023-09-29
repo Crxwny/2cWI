@@ -1,0 +1,19 @@
+
+/* ELEMENT Selector '*/
+div{
+    background-color: aquamarine
+}
+
+/* ID Selector */
+    #header{
+        font-size: 2rem;
+    }
+
+/* CLASS Selector */
+    .subtitle {
+        color: blue;
+    }
+
+    #text p {
+    background-color: blueviolet;
+    }
