@@ -1,0 +1,12 @@
+div {
+    height:100px;
+    width:100px;
+    background-color: red;
+    border-style: solid;
+}
+*{
+    box-sizing: content-box;
+}
+.second  {
+    padding: 10px;
+}
