@@ -1,0 +1,72 @@
+/* CSS-Reset Begin  */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* CSS-Reset End */
+
+.container{
+    background-color: #FFFC00;
+    display: flex;
+    height: 100px;
+    align-items:center;
+    justify-content:flex-end;
+    border-style: solid;
+    border-width: 2px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    margin-right: 90px;
+    background-color: #A9D800;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: -60px;
+
+}
+
+.bluebox{
+    position: relative;
+    background-color:#A9D8FF;
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid;
+    border-width: 2px;
+}
+
+.header{
+    padding: 20px;
+}
+
+.brownbox{
+    position: absolute;
+    background-color: #A98517;
+    width: 100px;
+    height: 100px;
+    margin-left: 298px;
+    margin-top: -12px;
+    border-style: solid;
+    border-width: 2px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.purplebox{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #D9AEFF;
+}
