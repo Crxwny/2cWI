@@ -1,0 +1,68 @@
+/* CSS-Reset Begin  */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* CSS-Reset End */
+
+.bluebox{
+    position: relative;
+    height: 400px;
+    width: 200px;
+    background-color:#A9D8FF;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.blackbox{
+    position: absolute;
+    width: 20px;
+    height: 20px;               
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: -20px;
+    margin-left: -32px;
+    padding: 20px;
+}
+
+.greenbox{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #A2D762;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.flexbox{
+    margin-top: 50px;
+    height: 200px;
+    width: 100vw;
+    background-color: #FFFC00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 2px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.box{
+    height: 20px;
+    width: 40px;
+    background-color: #A9D800;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 2px;
+}
