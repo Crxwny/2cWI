@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
+    sans-serif;
+  font-feature-settings: "liga", "kern";
+  color: white;
+}
+.header {
+  background-color: #9d0b0e;
+  width: 100vw;
+  height: 80px;
+  margin: 0;
+  display: flex;
+}
+
+.list li {
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.list li:hover {
+  cursor: pointer;
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.rightheader {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+.rightheader:hover{
+  cursor: pointer;
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.bottomheader{
+  background-color: #BA131A;
+  width: 100vw;
+  height: 120px;
+  display: flex;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
