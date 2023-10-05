@@ -8,7 +8,7 @@
 .header {
   background-color: #9d0b0e;
   width: 100vw;
-  height: 80px;
+  height: 60px;
   margin: 0;
   display: flex;
 }
@@ -16,7 +16,7 @@
 .list li {
   display: inline-block;
   margin-right: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .list li:hover {
   cursor: pointer;
@@ -25,24 +25,102 @@
 }
 
 .rightheader {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 400px;
 }
 
-.rightheader:hover{
+.rightheader:hover {
   cursor: pointer;
   color: skyblue;
   text-decoration: underline;
 }
 
-.bottomheader{
-  background-color: #BA131A;
+.bottomheader {
+  background-color: #ba131a;
   width: 100vw;
   height: 120px;
   display: flex;
 }
 
-.logo{
-  width: 50px;
-  height: 50px;
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: xx-large;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.secondbottomheader {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  background-color: #7a0001;
+}
+
+.secondlist li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 200px;
+  font-size: larger;
+}
+
+.bell {
+  margin-top: 15px;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+.secondlist li:hover {
+  cursor: pointer;
+  color: skyblue;
+  text-decoration: underline;
+}
+
+.bell i:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.picture img {
+  width: 100vw;
+  height: 600px;
+  position: relative;
+}
+
+.thema {
+  width: 50vw;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  margin-left: 25%;
+  bottom: 110px;
+  color: #74757c;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.ueberschrift {
+  font-size: xx-large;
+  margin-top: 20px;
+  color: black;
+}
+
+.bottom {
+  background-color: white;
+  width: 100vw;
+  position: absolute;
+  bottom: 0px;
+  height: 220px;
+}
+
+.krimskrams {
+  margin-left: 495px;
+  font-size: large;
+  font-weight: bold;
+  color: black;
 }
