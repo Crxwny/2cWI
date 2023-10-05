@@ -17,6 +17,7 @@
   display: inline-block;
   margin-right: 100px;
   margin-top: 20px;
+  font-weight: bold;
 }
 .list li:hover {
   cursor: pointer;
@@ -27,6 +28,7 @@
 .rightheader {
   margin-top: 20px;
   margin-left: 400px;
+  font-weight: bold;
 }
 
 .rightheader:hover {
