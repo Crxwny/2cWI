@@ -1,3 +1,4 @@
+// Task 1
 for (let index = 0; index < 4; index++) {
     if (index%2==0) {
         console.log("XXXX");
@@ -7,7 +8,10 @@ for (let index = 0; index < 4; index++) {
     } 
 }
 
+// Task 2
 for (let index = 1; index < 100; index++) {
-    const element = array[index];
+    if (index%2==0) {
+        console.log(index + index);
+    }
     
 }
