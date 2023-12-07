@@ -18,7 +18,7 @@ const readLineAsync = () => {
   let balance = 0;
   let isFinished = false;
 
-  while (!isFinished) {
+  while (!isFinished) { // while um die 4 optionen immer wieder erneut aufrufen zu können
     console.log("Selektieren Sie die gewünschte Funktion:");
     console.log("1. Einzahlen");
     console.log("2. Kontostand");
