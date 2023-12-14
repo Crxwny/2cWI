@@ -43,28 +43,69 @@ const readLineAsync = () => {
 
   let isFinished = false;
   let isUser1 = true;
+  if (isUser1) {
+    console.log("Player 1's Turn");
+  }
 
   while (!isFinished) {
-    console.log("Reihe?");
+    
+    console.log("Row?");
     let inputRow = await readLineAsync();
 
-    console.log("Spalte?");
+    if (inputRow!= 0 && inputRow!= 1 && inputRow!= 2  ) {
+      console.log("Wrong Row, please try again");
+    } else {
+
+    console.log("Column?");
     let inputColumn = await readLineAsync();
 
+    if (inputColumn!= 0 && inputColumn!= 1 && inputColumn!= 2  ) {
+      console.log("Wrong Column, please try again");
+    } else {
+   
+    if (field[inputRow][inputColumn] != 0) {
+      console.log("Place already in use, try again");
+      
+    } else {
     if (isUser1) {
       field[inputRow][inputColumn] = 1;
 
       isUser1 = false;
-      console.log("Spieler 2, du bist dran");
-    } else {
+      console.log("Player 2's turn");
+    } else if (!isUser1) {
       field[inputRow][inputColumn] = 2;
 
-      isUser1 = false;
-      console.log("Spieler 1, du bist dran");
+      isUser1 = true;
+      console.log("Player 1's Turn");
+
     }
     printField();
 
-    
+    if (
+      (field[0][0] === 1 && field[0][1] === 1 && field[0][2] === 1) ||
+      (field[1][0] === 1 && field[1][1] === 1 && field[1][2] === 1) ||
+      (field[2][0] === 1 && field[2][1] === 1 && field[2][2] === 1) ||
+      (field[0][0] === 1 && field[1][0] === 1 && field[2][0] === 1) ||
+      (field[0][1] === 1 && field[1][1] === 1 && field[2][1] === 1) ||
+      (field[0][2] === 1 && field[1][2] === 1 && field[2][2] === 1) ||
+      (field[0][0] === 1 && field[1][1] === 1 && field[2][2] === 1) ||
+      (field[0][2] === 1 && field[1][1] === 1 && field[2][0] === 1)
+    ) {
+      console.log("Player 1 wins!");
+      isFinished = true;
+    } else if (
+      (field[0][0] === 2 && field[0][1] === 2 && field[0][2] === 2) ||
+      (field[1][0] === 2 && field[1][1] === 2 && field[1][2] === 2) ||
+      (field[2][0] === 2 && field[2][1] === 2 && field[2][2] === 2) ||
+      (field[0][0] === 2 && field[1][0] === 2 && field[2][0] === 2) ||
+      (field[0][1] === 2 && field[1][1] === 2 && field[2][1] === 2) ||
+      (field[0][2] === 2 && field[1][2] === 2 && field[2][2] === 2) ||
+      (field[0][0] === 2 && field[1][1] === 2 && field[2][2] === 2) ||
+      (field[0][2] === 2 && field[1][1] === 2 && field[2][0] === 2)
+    ) {
+      console.log("Player 2 wins!");
+      isFinished = true;
+    }}}}
   }
 
   readline.close();
