@@ -1,3 +1,8 @@
+// npm init = node packet manager initalisieren
+// npm i readline = node install readline, wobei readline ein package ist
+// npm i = npm install = installiert alle packages aus package.json
+// immer wenn man mit node packages arbeitet eine .gitignore file machen, in der /node_modules steht damit es nicht auf github commited wird (zu viele files)
+
 import { createInterface } from "readline";
 
 const readline = createInterface({
