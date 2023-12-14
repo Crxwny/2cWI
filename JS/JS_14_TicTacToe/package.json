@@ -1,0 +1,16 @@
+{
+  "name": "js_12_01_read",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   
+    "readline": "^1.3.0"
+  }
+}
