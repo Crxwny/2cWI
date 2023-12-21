@@ -1,0 +1,42 @@
+body{
+    background-color: beige;
+    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
+    sans-serif;
+  font-feature-settings: "liga", "kern";
+  color: black;
+}
+
+#heading{
+    margin-left: 50vw;
+    margin-top: 10vh;
+}
+
+#number1{
+    font-size: larger;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 30px;
+}
+
+#number2{
+    font-size: larger;
+    background-color: antiquewhite;
+    width: 50px;
+    height: 30px;
+}
+
+#content{
+    margin-left: 25vw;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#firstbutton{
+    margin-left: 25vw;
+}
+#secondbutton{
+    margin-left: 25vw;
+}
+
+
