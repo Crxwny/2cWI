@@ -1,42 +1,60 @@
-body{
-    background-color: beige;
-    font-family: "ORF ON", Arial, Helvetica, Lucida Sans Unicode, Lucida Grande,
-    sans-serif;
-  font-feature-settings: "liga", "kern";
-  color: black;
-}
-
-#heading{
-    margin-left: 50vw;
-    margin-top: 10vh;
-}
-
-#number1{
-    font-size: larger;
-    background-color: antiquewhite;
-    width: 50px;
-    height: 30px;
-}
-
-#number2{
-    font-size: larger;
-    background-color: antiquewhite;
-    width: 50px;
-    height: 30px;
-}
-
-#content{
-    margin-left: 25vw;
-    display:flex;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content:center;
-}
+    height: 100vh;
+    margin: 0;
+    background-color: beige;
+   }
+   
+   #heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+   }
+   
+   #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+   input[type="text"] {
+    margin-left: 0.5rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+   }
+   
+   #result {
+    margin-left: 10px;
+    margin-top: 10px;
+    border: #884e4f;
+    border-radius: 5px;
+    background-color: #6c5b37;
+    color: white;
+    padding: 0.5rem 1rem;
+   }
+   
+   #operations {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1.5rem;
+   }
+   
+   button {
+    cursor: pointer;
+    background-color: #6c5b37;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+   }
+   
+   button:hover {
+    background-color: #a58e5c;
+   }
 
-#firstbutton{
-    margin-left: 25vw;
-}
-#secondbutton{
-    margin-left: 25vw;
-}
-
-
+   

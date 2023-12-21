@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+ </head>
+ <body>
     <h1 id="heading">Calculator</h1>
     <div id="content">
       <div id="firstbutton">A <input type="text" id="number1" value="" /></div>
-
       <div id="secondbutton">B <input type="text" id="number2" value="" /></div>
-      <button onclick="Add()" id="Add">Add</button>
-      <button onclick="Subtract()" id="Subtract">Subtract</button>
-      <button onclick="Multiply()" id="Multiply">Multiply</button>
-      <button onclick="Divide()" id="Divide">Divide</button>
+      <div id="result"></div>
+      <div id="operations">
+        <button onclick="Add()" id="Add">Add</button>
+        <button onclick="Subtract()" id="Subtract">Subtract</button>
+        <button onclick="Multiply()" id="Multiply">Multiply</button>
+        <button onclick="Divide()" id="Divide">Divide</button>
+      </div>
     </div>
-  </body>
+ </body>
 </html>
