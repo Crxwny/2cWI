@@ -1,0 +1,125 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    height: 100vh;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    box-shadow: 5px 3px 8px 5px #888888;
+    background-color: darkred;
+    border-bottom: 2px solid black;
+    z-index: 2;
+  }
+  
+  .imageText {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 15vh;
+    height: 85%;
+  }
+  
+  .gameWrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 5;
+  }
+  
+  .games {
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 70%;
+    box-shadow: 3px 3px 3px 3px #888888;
+  
+    background-color: rgb(144, 134, 134);
+    border: solid black 2px;
+    border-radius: 30px;
+    margin: 8%;
+    background-color: grey;
+  }
+  
+  .teamLogo {
+    display: flex;
+    position: absolute;
+    align-self: center;
+    width: 130px;
+    height: 130px;
+    z-index: 0;
+  }
+  
+  .teamLogo > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  .One {
+    left: 50px;
+  }
+  .Two {
+    right: 50px;
+  }
+  
+  .score {
+    font-size: 50px;
+    font-weight: 400;
+    align-self: center;
+  }
+  
+  .align {
+    display: flex;
+    align-self: baseline;
+    background-color: antiquewhite;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul > li {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-bottom: solid black 2px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: rgb(200, 202, 203);
+  }
+  
+  .sidebar {
+    position: absolute;
+    position: fixed;
+    height: 85%;
+    width: 20%;
+    z-index: 3;
+    border-left: solid black 2px;
+    right: 0;
+    background-color: grey;
+  }
+  
+  .backgroundImg {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 120%;
+  }
+  
